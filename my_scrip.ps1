@@ -1,5 +1,3 @@
-# Test Script for Case ID 147391
+/bin/sh ls -al
 $date = (get-date).dayofyear
-
-
 get-service | out-file "$date.log"
